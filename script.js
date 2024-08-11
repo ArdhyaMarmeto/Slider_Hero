@@ -106,6 +106,15 @@ document.getElementById('position').addEventListener('change', function() {
     heroContent.className = ''; // Clear existing classes
     heroContent.classList.add(this.value);
 });
+document.addEventListener('DOMContentLoaded', function (){
+    new Splide('#alert-slider', {
+        type      : 'loop',
+        perPage   : 1,
+        autoplay  : true,
+        pagination: false, // Hide pagination if only arrows are needed
+        arrows    : true,  // Enable arrows
+    }).mount();
+    
 
 
 
