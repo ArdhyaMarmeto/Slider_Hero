@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veena Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Alert Banner Slider -->
+    <div class="splide" id="alert-slider">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <span>Qualify for complimentary shipping on orders totaling $50 or more.</span>
+                </li>
+                <li class="splide__slide">
+                    <span>Flash Sale Alert: Save Big for the Next 24 Hours!</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <ul class="nav-links">
+                <li><a href="https://veena-theme-fashion.myshopify.com/collections">Shop</a></li>
+                <li><a href="#">Trends <i class="fas fa-chevron-down"></i></a>
+                   
+                </li>
+                <li><a href="#">Men's <i class="fas fa-chevron-down"></i></a>
+                 
+                </li>
+                <li><a href="#">Women's <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li><a href="#">Blogs <i class="fas fa-chevron-down"></i></a>
+                  
+                </li>
+                <li><a href="https://veena-theme-fashion.myshopify.com/pages/contact">Contact</a></li>
+            </ul>
+            <div class="logo">
+                <img src="https://veena-theme-fashion.myshopify.com/cdn/shop/files/n_Veena.png?v=1707549257&width=150" alt="logo">
+            </div>
+            <div class="nav-icons">
+                <a class="nav-right-icon1" href="https://veena-theme-fashion.myshopify.com/pages/faqs">FAQ</a>
+                <a class="nav-right-icon" href="https://veena-theme-fashion.myshopify.com/pages/contact">Contact</a>
+                <a class="nav-right-icon" href="#"><i class="fa fa-search"></i></a>
+                <a class="nav-right-icon" href="#"><i class="fa fa-user"></i></a>
+                <a class="nav-right-icon" href="#"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Popup -->
+    <div class="search-popup" id="search-popup">
+        <div class="search-container">
+            <input type="text" placeholder="Search For Products...">
+            <button class="search-btn"><i class="fas fa-search result-search"></i></button>
+            <button class="close-btn"><i class="fas fa-times result-close"></i></button>
+        </div>
+        <div class="search-results">
+            <div class="results-container">
+                <div class="result-section">
+                    <h3>Most Searches</h3>
+                    <div class="tags">
+                        <button class="tag">Women</button>
+                        <button class="tag">Men</button>
+                        <button class="tag">Accessories</button>
+                    </div>
+                </div>
+                <div class="result-section">
+                    <h3>Most Popular Product <a href="#">See All Products</a></h3>
+                    <ul class="product-list">
+                        <li>
+                            <!-- <img src="path-to-image" alt="Men winter jacket"> -->
+                            <div class="product-info">
+                                <span>Men winter jacket</span>
+                                <span>Rs. 4,000.00 <del>Rs. 238,600.00</del></span>
+                            </div>
+                        </li>
+                        <!-- Add more products here -->
+                    </ul>
+                </div>
+                <div class="result-section">
+                    <h3>Most Popular Categories <a href="#">See All Categories</a></h3>
+                    <ul class="category-list">
+                        <li><img src="path-to-image" alt="Accessories"> Accessories</li>
+                        <li><img src="path-to-image" alt="Bags"> Bags</li>
+                        <!-- Add more categories here -->
+                    </ul>
+                </div>
+                <div class="result-section">
+                    <h3>Blog Posts <a href="#">See All Articles</a></h3>
+                    <ul class="blog-list">
+                        <li><img src="path-to-image" alt="More Fashionable Cities"> More Fashionable Cities</li>
+                        <!-- Add more blog posts here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    
+    <!-- <section id="splide-hero" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide hero" data-position="top-start">
+                    <div class="hero-content">
+                        <ul class="hero-small-text">
+                            <li class="tag">Women's Apparel</li>
+                        </ul>
+                        <h1>Elevate your wardrobe with our fashion offer! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+                        <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Explore More</a>
+                    </div>
+                </li>
+                <li class="splide__slide hero" data-position="top-center">
+                    <div class="hero-content">
+                        <ul class="hero-small-text">
+                            <li class="tag">Men's Apparel</li>
+                        </ul>
+                        <h1>Discover the latest trends in men's fashion! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+                        <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Shop Now</a>
+                    </div>
+                </li>
+                <li class="splide__slide hero" data-position="top-end">
+                    <div class="hero-content">
+                        <ul class="hero-small-text">
+                            <li class="tag">Accessories</li>
+                        </ul>
+                        <h1>Complete your look with our exclusive accessories! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+                        <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Browse Collection</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+    
+
+
+    <section class="hero hero1">
+        <div id="position-selector">
+            <label for="position">Select Position:</label>
+            <select id="position">
+                <option value="position-top-start">Top Start</option>
+                <option value="position-top-center">Top Center</option>
+                <option value="position-top-end">Top End</option>
+                <option value="position-middle-start">Middle Start</option>
+                <option value="position-middle-center">Middle Center</option>
+                <option value="position-middle-end">Middle End</option>
+                <option value="position-bottom-start">Bottom Start</option>
+                <option value="position-bottom-center">Bottom Center</option>
+                <option value="position-bottom-end">Bottom End</option>
+            </select>
+        </div>
+
+        <div class="hero-content" id="hero-content">
+            <ul class="hero-small-text">
+                <li class="tag">Women's Apparel</li>
+            </ul>
+            <h1>Elevate your wardrobe with our fashion offer! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+            <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Explore More</a>
+        </div>
+    </section>
+    <!-- <section class="hero hero-2">
+        <div id="position-selector">
+            <label for="position">Select Position:</label>
+            <select id="position">
+                <option value="position-top-start">Top Start</option>
+                <option value="position-top-center">Top Center</option>
+                <option value="position-top-end">Top End</option>
+                <option value="position-middle-start">Middle Start</option>
+                <option value="position-middle-center">Middle Center</option>
+                <option value="position-middle-end">Middle End</option>
+                <option value="position-bottom-start">Bottom Start</option>
+                <option value="position-bottom-center">Bottom Center</option>
+                <option value="position-bottom-end">Bottom End</option>
+            </select>
+        </div>
+    
+        <div class="hero-content" id="hero-content">
+            <ul class="hero-small-text">
+                <li class="tag">Men's Apparel</li>
+            </ul>
+            <h1>Discover the latest trends in men's fashion! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+            <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <section class="hero hero-3">
+        
+        <div id="position-selector">
+            <label for="position">Select Position:</label>
+            <select id="position">
+                <option value="position-top-start">Top Start</option>
+                <option value="position-top-center">Top Center</option>
+                <option value="position-top-end">Top End</option>
+                <option value="position-middle-start">Middle Start</option>
+                <option value="position-middle-center">Middle Center</option>
+                <option value="position-middle-end">Middle End</option>
+                <option value="position-bottom-start">Bottom Start</option>
+                <option value="position-bottom-center">Bottom Center</option>
+                <option value="position-bottom-end">Bottom End</option>
+            </select>
+        </div>
+    
+        <div class="hero-content" id="hero-content">
+            <ul class="hero-small-text">
+                <li class="tag">Accessories</li>
+            </ul>
+            <h1>Complete your look with our exclusive accessories! <a href="https://veena-theme-fashion.myshopify.com/collections">limited-time</a></h1>
+            <a href="https://veena-theme-fashion.myshopify.com/collections" class="btn">Browse Collection</a>
+        </div>
+    </section> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
